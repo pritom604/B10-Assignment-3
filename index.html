@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-03</title>
+    <!-- daisyui and tailwind cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'btn-primary': '#ABEF5F',
+                'btn-secondary': '#ABEF5F80',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <header class="w-11/12 mx-auto pt-5 " >
+        <!-- nav-section-starts -->
+        <nav class="flex justify-between items-center gap-5">
+            <div class="flex justify-between items-center gap-2">
+                <i class="bg-btn-primary rounded-full h-6 w-6 flex justify-center items-center -rotate-45 fa-solid fa-arrow-right"></i>
+                <h2 class="text-2xl font-bold">Rinterio</h2>
+            </div>
+            <div>
+                <ul class="flex justify-between items-center gap-8">
+                    <li><a  class="font-bold" href="#">Home</a></li>
+                    <li><a class="text-gray-400 font-semibold" href="#">Services</a></li>
+                    <li><a class="text-gray-400 font-semibold" href="#">Portfolio</a></li>
+                    <li><a class="text-gray-400 font-semibold" href="#">Blogs</a></li>
+                    <li><a class="text-gray-400 font-semibold" href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="flex justify-between items-center gap-4">
+                <i class=" bg-white border p-4 rounded-full h-7 w-7 flex justify-center items-center fa-solid fa-magnifying-glass"></i>
+                <i class=" bg-white border rounded-full h-7 w-7 flex justify-center items-center p-4 fa-solid fa-cart-shopping"></i>
+                <button class=" flex flex-row items-center gap-2 bg-btn-primary  px-3 py-2  font-bold rounded-full">
+                    Book Consult
+                    <i class="bg-black  text-white rounded-full p-1 flex justify-center items-center -rotate-45 fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </nav>
+        <!-- banner-section -->
+         <section class="mt-10">
+            <div>
+                <img src="" alt="">
+            </div>
+         </section>
+    </header>
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

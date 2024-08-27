@@ -127,17 +127,17 @@
             <h1 class="text-4xl font-bold">We design thoughtful,<br> liveable spaces</h1>
             <p>The barn house captivates with its blend of rustic charm and 
               modern sophistication, featuring weathered wood, sleek metal accents.</p>
-              <div class="bg-white p-5">
+              <div class="bg-white p-5 rounded-xl">
                 <img src="./assets/commercial.png" alt="">
                 <div>
-                  <h2>Commercial</h2>
+                  <h2 class="font-bold">Commercial</h2>
                   <p>The barn house captivates with its blend of rustic charm and modern.</p>
                 </div>
               </div>
-              <div class="bg-white p-5 ">
+              <div class="bg-white p-5 rounded-xl ">
                 <img src="./assets/residential.png " alt="">
                 <div>
-                  <h2>Residential</h2>
+                  <h2 class="font-bold">Residential</h2>
                   <p>The barn house captivates with its blend of rustic charm and modern.</p>
                 </div>
               </div>
@@ -149,12 +149,12 @@
       </section>
       <!-- How we work section -->
       <section class="w-11/12 mx-auto mb-20">
-        <div class="space-y-5 w-1/2 mx-auto text-center mb-5 ">
-          <button class="bg-white  px-3 py-2 rounded-full">
-            <i class=" fa-solid fa-arrow-right"></i>
+        <div class="space-y-5 lg:w-1/2 w-full mx-auto text-center mb-5 ">
+          <button class="bg-white  px-3 py-2 rounded-xl font-semibold">
+            <i class=" fa-solid fa-arrow-right "></i>
             How we works
           </button>
-          <h1 class="text-4xl font-bold">Our Works Process</h1>
+          <h1 class="lg:text-4xl text-3xl font-bold">Our Works Process</h1>
           <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-4 gap-4 ">
@@ -184,12 +184,12 @@
 
       <!-- Our latest portfolio section -->
        <section class="w-11/12 mx-auto mb-10">
-        <div class="space-y-5 w-1/2  mx-auto text-center mb-5 ">
+        <div class="space-y-5 lg:w-1/2  mx-auto text-center mb-5 ">
           <button class="bg-btn-secondary font-semibold px-3 py-2 rounded-full">
             <i class=" fa-solid fa-arrow-right"></i>
-            How we works
+            Explore our Latest works
           </button>
-          <h1 class="text-4xl font-bold">Read Our Articles and News</h1>
+          <h1 class="lg:text-4xl text-3xl font-bold">Our Latest Portfolio</h1>
           <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
         </div>
 
@@ -205,10 +205,13 @@
               </div>
             </div>
           </div>
-          <div class="p-3 bg-white rounded-lg border lg:col-span-4 mx-auto">
+          <div class="p-3 bg-white rounded-lg border lg:col-span-4 mx-auto ">
             <img class="border-dashed border-2 border-gray-300" src="./assets/img2.png" alt="">
           </div>
-          <div class="p-3 bg-white rounded-lg border lg:col-span-3 mx-auto">
+          <div class="p-3 bg-white rounded-lg lg:hidden border w-full lg:col-span-3 mx-auto ">
+            <img class="border-dashed border-2 border-gray-300" src="./assets/img5.png" alt="">
+          </div>
+          <div class="p-3 bg-white rounded-lg border lg:col-span-3 mx-auto order-3">
             <img class="border-dashed border-2 border-gray-300" src="./assets/img3.png" alt="">
           </div>
           <div class="lg:flex lg:col-span-6  border p-3 rounded-lg gap-4 bg-white justify-center items-center ">
@@ -222,7 +225,7 @@
               </div>
             </div>
           </div>
-        <div class="p-3 bg-white rounded-lg border w-full lg:col-span-3 mx-auto">
+        <div class="p-3 bg-white rounded-lg border w-full lg:col-span-3 mx-auto ">
           <img class="border-dashed border-2 border-gray-300" src="./assets/img5.png" alt="">
         </div>
         </div>
@@ -249,22 +252,22 @@
         </section>
 
         <!-- Next project section -->
-         <section class=" bg-[url('assets/bg.jpg')] bg-cover bg-no-repeat p-20">
-          <div class="w-11/12 mx-auto">
-            <div class="space-y-5 w-1/2  mx-auto text-center mb-5 ">
+        <section class=" bg-[url('assets/bg.jpg')] bg-cover bg-no-repeat p-20 ">
+          <div>
+            <div class="space-y-5 lg:w-1/2  mx-auto text-center mb-5 ">
               <button class="bg-btn-secondary font-semibold px-3 py-2 rounded-full">
                 <i class=" fa-solid fa-arrow-right"></i>
                 Lets Connect
               </button>
-              <h1 class="text-4xl font-bold">Let’s Discuss Next Project</h1>
+              <h1 class="lg:text-4xl text-xl font-bold">Let’s Discuss Next Project</h1>
               <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
             </div>
   
-            <div class="grid grid-cols-2 gap-4">
-              <input class="px-3 py-4 rounded-full" type="text" name="" placeholder="First Name*" id="">
-              <input class="px-3 py-4 rounded-full" type="text" name="" placeholder="Last  Name*" id="">
-              <input class="px-3 py-4 rounded-full" type="text" name="" placeholder="Phone Number" id="">
-              <input class="px-3 py-4 rounded-full" type="email" name="" placeholder="Email Number*" id="">
+            <div class="grid grid-cols-1   gap-4">
+              <input class="p-3 rounded-full " type="text" name="" placeholder="First Name*" id=""><br>
+              <input class=" p-3 rounded-full" type="text" name="" placeholder="Last  Name*" id=""><br>
+              <input class=" p-3 rounded-full" type="text" name="" placeholder="Phone Number" id=""><br>
+              <input class=" p-3 rounded-full" type="email" name="" placeholder="Email Number*" id=""><br>
               <textarea cols="10" rows="10" class="col-span-2 rounded-lg" name="" placeholder="Write Your Messages here..." id=""></textarea>
               <button class=" col-span-2 justify-center flex flex-row items-center gap-2 bg-btn-primary  px-3 py-2  font-bold rounded-full">
                 Book Consult
@@ -276,7 +279,7 @@
     </main>
 
     <footer class="bg-black px-20 py-20">
-      <section class="w-1/2 mx-auto space-y-10">
+      <section class="lg:w-1/2 mx-auto space-y-10">
         <div class="flex items-center gap-2 justify-center">
           <i class="bg-btn-primary rounded-full h-6 w-6 flex justify-center items-center -rotate-45 fa-solid fa-arrow-right"></i>
         <h2 class="text-2xl font-bold text-white">Rinterio</h2>
